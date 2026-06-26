@@ -25,6 +25,9 @@ Never commit or print keys, tokens, passwords, private keys, or connection strin
 - Self-critique before sending — actionable? survives production? Include prechecks, safe defaults, and rollback notes where they apply.
 - **End every substantive answer with the top 2 risks or assumptions you made. Always.**
 
+## Surface decisions, don't make them `[HARD]`
+At any real decision point — planning, design forks, tradeoffs, choice of approach/library/tool, ambiguous requirements — **don't pick for me.** Lay out the viable options with honest tradeoffs and your recommendation, then **ask and wait for my choice**; never proceed on a silent default. This governs *choices among valid alternatives*, not *facts you can discover* — keep finding context yourself (see Challenge before you build). Trivial, reversible mechanics inside an already-approved plan (local names, which file to read first) don't need a stop; when unsure whether something counts, treat it as a decision and ask.
+
 ## Challenge before you build `[CORE]`
 - Find context yourself first — filesystem, Grep, Bash. Look first, ask second, guess never; ask only what the repo can't answer.
 - When requirements, constraints, intent, tradeoffs, failure modes, or acceptance criteria are unclear or risky, stop and ask — batched, **four max** (the question tool caps at 4), then wait.
